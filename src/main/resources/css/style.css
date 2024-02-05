@@ -1,0 +1,67 @@
+/* Style des boutons en néon */
+.button-container {
+    -fx-display: flex;
+    -fx-align-items: center;
+    -fx-justify-content: center;
+}
+
+.neon-button {
+    -fx-background-color: rgb(250, 219, 62);
+    -fx-text-fill: #000;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+
+    -fx-font-size: 25px;
+    -fx-min-width: 200px;
+    -fx-min-height: 60px;
+}
+
+.neon-button:hover {
+    -fx-background-color: rgb(241, 241, 7);
+    -fx-border-color: #000;
+}
+
+/* Style du fond de la fenêtre */
+#gradeChoice {
+    -fx-background-color: #111;
+}
+
+
+.headerText {
+    -fx-font-size: 40;
+    -fx-text-fill: #fff;
+    -fx-font-family: Arial;
+}
+
+
+.vbox {
+    -fx-background-color: #2C3E50;
+    -fx-border-color: #3498DB;
+    -fx-border-width: 3px;
+    -fx-padding: 10px;
+}
+
+.reglesLabel {
+    -fx-text-fill: white;
+}
+
+
+
+/* Style pour le log et le chat */
+.content-area {
+    -fx-background-color: darkblue; /* Fond bleu foncé pour le contentArea */
+}
+.text-area {
+    -fx-control-inner-background: lightblue; /* Fond bleu clair pour TextArea */
+}
+.scroll-pane .scroll-bar:vertical, .scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: darkblue; /* Couleur de fond des scrollbars */
+}
+.scroll-pane .scroll-bar:vertical .thumb, .scroll-pane .scroll-bar:horizontal .thumb {
+    -fx-background-color: blue; /* Couleur du thumb des scrollbars */
+}
+.toggle-button {
+    -fx-background-color: darkblue; /* Fond bleu foncé pour les boutons */
+    -fx-text-fill: white; /* Texte en blanc */
+    -fx-font-weight: bold; /* Police en gras */
+}
